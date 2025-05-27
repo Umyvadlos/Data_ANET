@@ -11,14 +11,3 @@ def desitkovadodvojkove(n):
 cislo = int(input("Zadej cislo: "))
 print(f"Binární tvar čísla {cislo} je {desitkovadodvojkove(cislo)}")
 
-
-
-def dvojkovadodesitkove(binarni):
-    desitkove = 0
-    for bit in binarni:
-        desitkove = desitkove * 2 + int(bit)
-    return desitkove
-
-
-binarni_cislo = input("Zadej číslo v binární soustavě: ")
-print(f"Desítkový tvar čísla {binarni_cislo} je {dvojkovadodesitkove(binarni_cislo)}")
